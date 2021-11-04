@@ -51,4 +51,4 @@ jobs:
           app-name: 'firstwebappcodetest'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_290D6D5DEEAA40CEA5D67F0B33CC294E }}
-          package: '*.war'
+          package: '*.jar'
